@@ -15,10 +15,10 @@
 
 
 ## 人臉矩形框(圖片 vs WebCam)
+利用Dlib函數庫的正向人臉檢測器get_frontal_face_detector進行人臉檢測，提取人臉外部矩形框，利用訓練好的Dlib的68點特徵預
+測器，進行人臉68點面部輪廓特徵提取，把所辨識出來的人臉輪廓點給標記出來。其程式處理流程如圖下所示。\  
 ![image](https://github.com/Penny3939/Deep-Learning/assets/125810833/39033055-4f48-4695-8f83-3daefd4324be)\
 ![image](https://github.com/Penny3939/Deep-Learning/assets/125810833/6b4eb668-5639-41ce-b0f9-8e2684ade972)\
-利用Dlib函數庫的正向人臉檢測器get_frontal_face_detector進行人臉檢測，提取人臉外部矩形框，利用訓練好的Dlib的68點特徵預
-測器，進行人臉68點面部輪廓特徵提取，把所辨識出來的人臉輪廓點給標記出來。其程式處理流程如圖下所示。  
 
 
 
